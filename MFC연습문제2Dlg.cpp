@@ -232,7 +232,6 @@ void CMFC연습문제2Dlg::OnClickedButton1()
 	{
 		m_listRight.GetText(i, str);
 		str += _T("\r\n");
-		// 수정할거
 		m_result += str;
 	}
 	UpdateData(FALSE);
